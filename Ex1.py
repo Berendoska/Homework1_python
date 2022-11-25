@@ -23,8 +23,6 @@ print(week_day(int(input(" Введите номер дня недели  "))))
 #0 - ложь
 #1 истина
 
-#one_pred = ['x', 'y', 'z']
-#two_pred = ['x', 'y', 'z']
        
 for x in range(2):
     for y in range(2):
@@ -59,10 +57,6 @@ def coordinate_d(x,y):
     if x > 0 and y < 0:
         return e   
 print(coordinate_d(int(input("Введите координату х: ")), int(input("Введите координату y: "))))
-
-
-#print(("координата находится в четверти " ))
-
 
 
 
