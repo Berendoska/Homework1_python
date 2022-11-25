@@ -11,7 +11,7 @@ def week_day (d):
     if d == 6 or d == 7:
         return "сегодня выходной"
     if 0 < d and d < 6:
-        return "сегодня будни" 
+        return "сегодня будний день" 
     if 0>= d or d>7:
         return "неверно задан день"
 
